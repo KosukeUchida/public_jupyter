@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jupyter:
+    build: .
+    tty: true
+    volumes:
+      - ..:/workspace:cached
+    env_file:
+      - .env

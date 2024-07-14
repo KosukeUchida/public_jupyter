@@ -1,0 +1,33 @@
+{
+	"name": "Neo4j with jupyter",
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "jupyter",
+	"workspaceFolder": "/workspace", // Add the workspaceFolder property
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot-nightly",
+				"ms-toolsai.jupyter",
+				"usernamehw.errorlens",
+				"streetsidesoftware.code-spell-checker",
+				"njpwerner.autodocstring",
+				"oderwat.indent-rainbow",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"mhutchie.git-graph",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"containerEnv": {
+		// .env fileに移行
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/git:1": {
+			"ppa": false
+		},
+		"ghcr.io/devcontainers/features/github-cli:1": {}
+	}
+	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	// "remoteUser": "vscode"
+}
