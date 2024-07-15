@@ -1,5 +1,5 @@
 {
-	"name": "Neo4j with jupyter",
+	"name": "public jupyter",
 	"dockerComposeFile": "./docker-compose.yml",
 	"service": "jupyter",
 	"workspaceFolder": "/workspace", // Add the workspaceFolder property
