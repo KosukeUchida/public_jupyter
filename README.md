@@ -1,2 +1,3 @@
 # public_jupyter
 公開用のjupyter notebook
+個人的な検証や機能確認のメモを公開するためのリポジトリです。
